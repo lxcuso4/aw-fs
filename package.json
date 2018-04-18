@@ -1,0 +1,26 @@
+{
+  "name": "aw-fs",
+  "version": "1.0.0",
+  "description": "Modify the fs module asynchronous function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxcuso4/aw-fs.git"
+  },
+  "keywords": [
+    "async-fs",
+    "await-fs"
+  ],
+  "author": {
+    "name": "liux",
+    "email": "lxcuso4@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lxcuso4/aw-fs/issues"
+  },
+  "homepage": "https://github.com/lxcuso4/aw-fs#readme"
+}
