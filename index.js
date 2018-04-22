@@ -172,4 +172,5 @@ function Wrap(opt=[]) {
   });
 }
 Wrap.prototype = fs;
+Wrap.default = Wrap;
 module.exports = Wrap;

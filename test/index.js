@@ -14,7 +14,7 @@ var log = console.log;
 var dir = path.resolve(__dirname);
 var file = path.resolve(dir,'./a.json')
 
-//this is mode1(default),Fs all asynchronous method errors are thrown
+// This is mode1(default), Fs all asynchronous method errors are thrown.
 async function test() {
   var mode1 = path.join(dir,'mode1');
   await fs.access(mode1, fs.constants.W_OK);
@@ -26,7 +26,7 @@ test().then(a=>log('success',a), b=>{
 });
 
 
-//this is mode2,Error will not be thrown
+// This is mode2, Error will not be thrown.
 async function test2() {
   var mode2 = path.join(dir,'mode2');
   var error = await fs2.access(mode2, fs.constants.W_OK);
@@ -37,7 +37,7 @@ async function test2() {
 }
 test2().then(a=>log('success',a), b=>log('fs2.access not thrown error',b));
 
-//this is real fs methods test
+// This is real fs methods test.
 async function test3() {
   var real = path.join(dir,'real');
   if(!fs.existsSync(real)){
