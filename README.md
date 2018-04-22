@@ -1,5 +1,8 @@
 ### aw-fs
 
+[![npm version](https://img.shields.io/npm/v/aw-fs.svg)](https://www.npmjs.org/package/aw-fs)
+[![size](https://img.shields.io/github/size/lxcuso4/aw-fs/index.js.svg)]()
+
 > 原生 fs 模块的异步函数使用的是 callback 的方式，多次使用时会用 callback hell 的问题，
 对应的同步函数会阻塞进程，为了使用性能更好的异步方法，同时使用同步的编码风格， 请使用 aw-fs
   
