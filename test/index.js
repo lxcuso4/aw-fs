@@ -1,11 +1,12 @@
 /**
  * Created by liux on 2018/4/17.
  */
-const path =require('path');
+const path = require('path');
 const Fs = require('../index');
 
 var fs = new Fs();
 var fs2 = new Fs([{name:'access',mode:2}]);
+
 
 // var fs = require('fs');
 

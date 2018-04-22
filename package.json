@@ -18,6 +18,7 @@
     "name": "liux",
     "email": "lxcuso4@gmail.com"
   },
+  "typings": "./index.d.ts",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lxcuso4/aw-fs/issues"
